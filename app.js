@@ -1,21 +1,25 @@
 //Problem N1
 
-//const x = 5; // height of the triangle or one of the recange
-// const y = 4; // base of the triange or another side of rectange
+// const height = 5;
+// const base = 4;
+
+// const side1 = 5;
+// const side2 = 3;
+
+// const areaTriangle = (height * base) / 2;
+// const areaRectangle = side1 * side2;
 
 
-// const areaTrangle = (x * y) / 2;
-// const areaRectange = x * y;
-
-// if (areaRectange > areaTrangle) {
-//     console.log("The area of the Recange is greater");
+// if (areaTriangle > areaRectangle) {
+//     console.log("Triangle has greater area");
 // }
-// else if (areaRectange < areaTrangle) {
-//     console.log("The area of the Triangle is greater");
+// else if (areaTriangle < areaRectangle) {
+//     console.log("Rectangle has gretaer area");
 // }
 // else {
-//     console.log("Input other numbers which are greater than 0");
+//     console.log("The area of rectangle is equal to the area of triangle");
 // }
+
 
 
 
@@ -26,30 +30,29 @@
 //Problem N2
 // we have a*x^2 + b*x + c = 0 equation.
 
-// const a = 1;
+// const a = 0;
 // const b = -4;
-// const c = -3;
+// const c = 3;
 
 // if (a === 0) {
 //     let x = -c / b;
 //     console.log(x);
 //     return;
 // }
-// let d = (b ** 2) - (4 * a * c);
+// const d = (b ** 2) - 4 * a * c;
 // if (d < 0) {
-//     console.log("The equation has no solutions");
+//     console.log("Unsolvable");
 // }
 // else if (d > 0) {
-//     let x1 = (-b + Math.sqrt(d)) / (2 * a);
-//     let x2 = (-b - Math.sqrt(d)) / (2 * a);
-//     console.log(`The first number is ${x1}`);
-//     console.log(`The second number is ${x2}`);
+//     let x1 = (-b + Math.sqrt(d)) / 2 * a;
+//     let x2 = (-b - Math.sqrt(d)) / 2 * a;
+//     console.log(`The first solution is ${x1}`);
+//     console.log(`The second solution is ${x2}`);
 // }
 // else if (d === 0) {
 //     let x0 = (-b) / (2 * a);
-//     console.log((`The only solution is ${x0}`));
+//     console.log(`The only solution is ${x0}`);
 // }
-
 
 
 
@@ -57,20 +60,31 @@
 
 //Problem N3
 
-// const x1 = 0;
-// const y1 = 0;
+// const x1 = 4;
+// const y1 = 4;
+
 // const x2 = 0;
-// const y2 = -5;
+// const y2 = 0;
 
 // const length = Math.sqrt(((x2 - x1) ** 2) + ((y2 - y1) ** 2));
 
-// console.log("The length of the line is " + length);
-
+// console.log(length);
 
 
 
 //Problem N4
 
+// const x1 = 4;
+// const y1 = -5;
 
-console.log("ok");
+// const x2 = 2;
+// const y2 = -6;
 
+// if (x1 === 0 || x2 === 0 || y1 === 0 || y2 === 0) {
+//     console.log("The coordinates should be either positive or negative");
+//     return;
+// }
+
+// const length = Math.sqrt(((x2 - x1) ** 2) + ((y2 - y1) ** 2));
+
+// console.log(length);
